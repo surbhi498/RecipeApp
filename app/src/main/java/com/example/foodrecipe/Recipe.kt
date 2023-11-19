@@ -2,7 +2,7 @@ package com.example.foodrecipe
 
 data class Recipe(
     val label: String,
-    val ingredients: List<String>,
+    val ingredients: List<Ingredient>,
     val url: String
 )
 data class Ingredient(
